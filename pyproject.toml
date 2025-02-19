@@ -1,0 +1,14 @@
+[project]
+name = "armvator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sleipnirgroup-jormungandr>=0.0.1.dev383",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.6",
+]
